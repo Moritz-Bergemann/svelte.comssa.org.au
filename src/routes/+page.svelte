@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
 	import '../styles/app.css';
+	import NavBar from '$lib/NavBar.svelte';
+	import ComssaTyper from '$lib/ComssaTyper.svelte';
 
 	onMount(() => {
 		const SHOW_SCROLL_NAVBAR_HEIGHT = 20;
@@ -19,74 +21,86 @@
 	});
 </script>
 
-<main>
+<body>
 	<!-- TODO add background little images -->
 	<!-- TODO make everything sort of float, it would be cool if it interacts with with the cursor as well -->
-	<div id="landing-screen">
-		<div class="logo-container">
-			<p class="logo">
-				<span class="commsa-blue-text">Com</span><span class="comssa-black-text">puter</span> <br />
-				<span class="commsa-blue-text">S</span><span class="comssa-black-text">cience</span> <br />
-				<span class="commsa-blue-text">S</span><span class="comssa-black-text">tudents</span> <br />
-				<span class="commsa-blue-text">A</span><span class="comssa-black-text">ssociation</span>
-			</p>
-			<img src="/assets/temp-photo.png" class="landing-image landing-image-1"/>
-			<img src="/assets/temp-photo.png" class="landing-image landing-image-2"/>
-			<img src="/assets/temp-photo.png" class="landing-image landing-image-3"/>
-			<p class="tagline">
-				Curtin University's and Western Australia's <span
-					class="comssa-orange-text comssa-bold-text">largest</span
+	<NavBar />
+
+	<div id="landing" class="landing">
+		<div style="margin: auto;">
+			<img src="/assets/comssa-c.png" style="margin: auto; display: block;" width="250rem" />
+			<ComssaTyper />
+			<div
+				style="margin-top: 1rem; font-family: WaveHaus SemiBold; text-align: center; font-size: 1.5rem;"
+			>
+				Western Australia's <span class="comssa-orange-text" style="font-family: WaveHaus Bold"
+					>largest</span
 				> computing student association!
-			</p>
-		</div>
+			</div>
 
-		<a class="join-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Join Now!</a>
-
-		<div class="comssa-poster">
-			<p>Latest News!</p>
-			<img src="/assets/poster.png" />
-			<!-- TODO put a cool little line burst around this, like this https://www.youtube.com/watch?v=hODmxWZ4H_U -->
+			<div
+				style="margin-top: 2rem; display: flex; justify-content: center; flex-direction: row; gap: 4rem;"
+			>
+				<a class="landing-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Join Now!</a>
+				<a class="landing-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Latest News</a>
+			</div>
 		</div>
 	</div>
 
 	<div class="content">
+
+		<!-- Welcomes -->
+		<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+			<div class="intro-item">
+				<p>Social Events</p>
+				<img src="/assets/temp-photo.png"/>
+			</div>
+			<div class="intro-item">
+				<p>Industry Networking</p>
+				<img src="/assets/temp-photo.png"/>
+			</div>
+			<div class="intro-item">
+				<p>Study Support</p>
+				<img src="/assets/temp-photo.png"/>
+			</div>
+		</div>
+
+		<div class="divider" />
+
 		<div>
+			<h1>Who are we?</h1>
 			<div class="paragraph-float-right">
-				<h1>Who are we?</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tristique lacus. Interdum
-					et malesuada fames ac ante ipsum primis in faucibus. Quisque in blandit purus. Nulla odio
-					ante, volutpat id aliquam quis, pharetra eget urna. Proin sollicitudin ipsum sapien, aliquam
-					porttitor dui maximus eget. Vivamus bibendum tristique libero sit amet porttitor.
-					Pellentesque eu facilisis nibh. Maecenas ac sapien a justo rhoncus pretium vitae vel est.
-					Suspendisse ornare sodales est, quis mattis orci dignissim vitae. Orci varius natoque
-					penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris sit amet arcu eu
-					enim hendrerit bibendum id nec magna. Donec in augue vel erat dapibus suscipit. Ut eu
-					bibendum lacus. Pellentesque ultrices ipsum id nunc venenatis, ac condimentum erat
-					tincidunt. Nam sagittis blandit ipsum vel molestie. Morbi ultricies non nunc et molestie.
-					Morbi volutpat pulvinar odio ut tincidunt. Fusce pharetra vehicula rhoncus. Nullam nibh
-					dolor, efficitur sit amet leo eu, volutpat faucibus velit.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tristique lacus.
+					Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque in blandit purus.
+					Nulla odio ante, volutpat id aliquam quis, pharetra eget urna. Proin sollicitudin ipsum
+					sapien, aliquam porttitor dui maximus eget. Vivamus bibendum tristique libero sit amet
+					porttitor. Pellentesque eu facilisis nibh. Maecenas ac sapien a justo rhoncus pretium
+					vitae vel est. Suspendisse ornare sodales est, quis mattis orci dignissim vitae. Orci
+					varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris
+					sit amet arcu eu enim hendrerit bibendum id nec magna. Donec in augue vel erat dapibus
+					suscipit. Ut eu bibendum lacus. Pellentesque ultrices ipsum id nunc venenatis, ac
+					condimentum erat tincidunt. Nam sagittis blandit ipsum vel molestie. Morbi ultricies non
+					nunc et molestie. Morbi volutpat pulvinar odio ut tincidunt. Fusce pharetra vehicula
+					rhoncus. Nullam nibh dolor, efficitur sit amet leo eu, volutpat faucibus velit.
 				</p>
 			</div>
 
-			<img src="/assets/temp-photo.png" style="float: left; width: 40%; margin: auto;"/>
+			<img src="/assets/temp-photo.png" style="float: left; width: 40%; margin: auto;" />
 		</div>
 	</div>
-	<div id="navbar" class="navbar">
-        <div class="navbar-items">
-            <div>bean1</div>
-            <div>bean2</div>
-            <div>bean3</div>
-        </div>
-    </div>
-</main>
+</body>
 
 <style>
-	:root {
+	:global(:root) {
 		--comssa-blue: #4459a5;
 		--comssa-secondary-blue: #7ea3cc;
 		--comssa-orange: #f5831f;
 		--comssa-black: #404040;
+	}
+
+	body {
+		margin: 0px;
 	}
 
 	.logo-container {
@@ -96,6 +110,10 @@
 		width: 400px;
 	}
 
+	.divider {
+		height: 100px;
+	}
+
 	.logo {
 		letter-spacing: 0.15rem;
 		line-height: 1;
@@ -103,7 +121,6 @@
 		font-size: 75px;
 		margin-top: 0;
 		margin-bottom: 0;
-		text-shadow: -5px -4px 3px rgba(128, 128, 128, 0.5);
 	}
 
 	.tagline {
@@ -111,7 +128,13 @@
 		font-size: 20px;
 	}
 
-	.join-button {
+	.landing {
+		position: relative;
+		width: 100vw;
+		padding-top: 10px;
+	}
+
+	.landing-button {
 		font-family: 'Wavehaus Bold';
 		letter-spacing: 0.15rem;
 
@@ -125,61 +148,11 @@
 		font-size: 16px;
 		margin: 4px 2px;
 		cursor: pointer;
-        box-shadow: -10px -8px 6px rgba(128, 128, 128, 0.5);
 
 		border-radius: 15px;
-
-		position: absolute;
-		top: 500px;
-		left: 100px;
 	}
 
-	.comssa-poster {
-		position: absolute;
-		top: 25px;
-		left: 1000px;
-		display: block;
-		text-align: center;
-	}
-
-	.comssa-poster img {
-		border-radius: 2%;
-		height: 65vh;
-        box-shadow: -10px -8px 6px rgba(128, 128, 128, 0.5);
-	}
-
-	.comssa-poster p {
-		font-size: 30px;
-		margin-bottom: 0;
-		font-family: "Wavehaus Bold";
-		color: var(--comssa-orange);
-		transform: rotate(-1deg);
-	}
-
-	/* TODO adjust these positions to make it look nicer */
-	.landing-image {
-		position: absolute;
-		border-radius: 3%;
-		width: 20vw;
-        box-shadow: -10px -8px 6px rgba(128, 128, 128, 0.5);
-	}
-
-	.landing-image-1 {
-		top: 0vh;
-		left: 25vw;
-	}
-
-	.landing-image-2 {
-		top: 20vh;
-		left: 35vw;
-	}
-
-	.landing-image-3 {
-		top: 40vh;
-		left: 30vw;
-	}
-
-	.commsa-blue-text {
+	.comssa-blue-text {
 		color: var(--comssa-blue);
 	}
 
@@ -191,26 +164,29 @@
 		color: var(--comssa-orange);
 	}
 
-	.comssa-bold-text {
-		font-family: 'Wavehaus bold';
+	.intro-item {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.intro-item img {
+		max-width: 100%;
+	}
+
+	.intro-item p {
+		font-size: 1.5rem;
+		text-align: center;
+		font-family: "WaveHaus SemiBold";
 	}
 
 	.paragraph-float-right {
 		text-align: right;
 		width: 50%;
-		float:right;
+		float: right;
 	}
 
 	.paragraph-float-right p {
 		text-align: justify;
-	}
-
-	#landing-screen {
-		height: 100vh;
-		/* TODO replace this gross gradient with a pretty background*/
-		/* background-image: linear-gradient(to bottom, white, var(--comssa-secondary-blue)); */
-		/* background-color: var(--comssa-secondary-blue); */
-		position: relative;
 	}
 
 	.content {
