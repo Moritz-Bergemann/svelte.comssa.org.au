@@ -24,7 +24,7 @@
 <body>
 	<!-- TODO add background little images -->
 	<!-- TODO make everything sort of float, it would be cool if it interacts with with the cursor as well -->
-	<NavBar />
+	<NavBar dynamic={true}/>
 
 	<div id="landing" class="landing">
 		<div style="margin: auto;">
@@ -149,9 +149,15 @@
 		margin: 4px 2px;
 		cursor: pointer;
 
-		border-radius: 15px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		border-radius: 45px;
 	}
 
+	.landing-button:hover {
+		background-color: var(--comssa-orange); /* Green */
+		box-shadow: 0px 8px 15px rgba(245, 131, 31, 0.5);
+		transition: all 0.3s ease 0s;
+	}
 	.comssa-blue-text {
 		color: var(--comssa-blue);
 	}
@@ -183,6 +189,7 @@
 		text-align: right;
 		width: 50%;
 		float: right;
+		margin: 0 !important;
 	}
 
 	.paragraph-float-right p {

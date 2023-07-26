@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
+	import { fade } from 'svelte/transition';
+	export let dynamic: boolean = false;
 	let scrollY: number;
 	onMount(() => {
 		
@@ -10,11 +12,15 @@
 
 </div>
 
-<div class="navbar {scrollY > 0 ? "active-navbar": ""}">
+<div class="navbar {!dynamic || scrollY > 0 ? "active-navbar": ""}">
 	<div class="navbar-items">
 		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Contact</span></a>
 		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Events</span></a>
-		<a class="{scrollY < 250 ? "hidden" : ""}"><img src="/assets/comssa-c.png"/></a>
+		<div class="navbar-item">
+			{#if !dynamic || scrollY < 250}
+			<a in:fade out:fade href="/"><img alt="ComSSA" src="/assets/comssa-c.png"/></a>
+			{/if}
+		</div>
 		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Meeting Minutes</span></a>
 		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Sponsors</span></a>
 	</div>
@@ -46,7 +52,7 @@
 	}
 
 	.active-navbar {
-		border-bottom: solid thick var(--comssa-blue);
+		border-bottom: solid var(--comssa-secondary-blue);
 		opacity: 100%;
 	}
 
@@ -60,7 +66,7 @@
 		align-items: center;
 	}
 
-	.navbar-items a {
+	.navbar-items .navbar-item {
 		max-width: 150px;
 		font-family: 'WaveHaus SemiBold';
 		display: block;
