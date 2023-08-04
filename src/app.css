@@ -1,0 +1,38 @@
+:global(:root) {
+    --comssa-blue: #4459a5;
+    --comssa-secondary-blue: #7ea3cc;
+    --comssa-orange: #f5831f;
+    --comssa-black: #404040;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    font-family: "Roboto Mono",monospace
+}
+
+h1 {
+    font-family: 'Wavehaus Bold';
+    color: var(--comssa-blue);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.comssa-blue-text {
+    color: var(--comssa-blue);
+}
+
+.comssa-black-text {
+    color: var(--comssa-black);
+}
+
+.comssa-orange-text {
+    color: var(--comssa-orange);
+}
+
+.content {
+    max-width: 60em;
+    margin: auto;
+}

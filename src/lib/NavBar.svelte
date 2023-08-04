@@ -14,15 +14,15 @@
 
 <div class="navbar {!dynamic || scrollY > 0 ? "active-navbar": ""}">
 	<div class="navbar-items">
-		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Contact</span></a>
-		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Events</span></a>
+		<a href="contact" class="navbar-item underlined"><span class="underline">Contact</span></a>
+		<a href="events" class="navbar-item underlined"><span class="underline">Events</span></a>
 		<div class="navbar-item">
 			{#if !dynamic || scrollY < 250}
 			<a in:fade out:fade href="/"><img alt="ComSSA" src="/assets/comssa-c.png"/></a>
 			{/if}
 		</div>
-		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Meeting Minutes</span></a>
-		<a href="www.beans.com" class="navbar-item underlined"><span class="underline">Sponsors</span></a>
+		<a href="https://drive.google.com/drive/folders/1HC9XAeFVHCOfjcJeRfK9hbmzNI1Ux2JX" class="navbar-item underlined"><span class="underline">Meeting Minutes</span></a>
+		<a href="sponsors" class="navbar-item underlined"><span class="underline">Sponsors</span></a>
 	</div>
 </div>
 

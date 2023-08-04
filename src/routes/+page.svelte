@@ -41,14 +41,13 @@
 			<div
 				style="margin-top: 2rem; display: flex; justify-content: center; flex-direction: row; gap: 4rem;"
 			>
-				<a class="landing-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Join Now!</a>
-				<a class="landing-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Latest News</a>
+				<a class="landing-button" href="LINK-TODO">Join Now!</a>
+				<a class="landing-button" href="LINK-TODO">Latest News</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="content">
-
 		<!-- Welcomes -->
 		<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
 			<div class="intro-item">
@@ -92,17 +91,6 @@
 </body>
 
 <style>
-	:global(:root) {
-		--comssa-blue: #4459a5;
-		--comssa-secondary-blue: #7ea3cc;
-		--comssa-orange: #f5831f;
-		--comssa-black: #404040;
-	}
-
-	body {
-		margin: 0px;
-	}
-
 	.logo-container {
 		position: absolute;
 		top: 100px;
@@ -157,17 +145,6 @@
 		background-color: var(--comssa-orange); /* Green */
 		box-shadow: 0px 8px 15px rgba(245, 131, 31, 0.5);
 		transition: all 0.3s ease 0s;
-	}
-	.comssa-blue-text {
-		color: var(--comssa-blue);
-	}
-
-	.comssa-black-text {
-		color: var(--comssa-black);
-	}
-
-	.comssa-orange-text {
-		color: var(--comssa-orange);
 	}
 
 	.intro-item {
