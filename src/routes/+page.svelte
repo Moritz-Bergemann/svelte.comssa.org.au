@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import '../styles/app.css';
 	import NavBar from '$lib/NavBar.svelte';
 	import ComssaTyper from '$lib/ComssaTyper.svelte';
 
