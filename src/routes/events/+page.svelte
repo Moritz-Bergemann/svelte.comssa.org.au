@@ -1,11 +1,11 @@
 <script lang="ts">
-	import NavBar from '$lib/NavBar.svelte';
+	import NavBar from '$lib/NavBar/NavBar.svelte';
 
     import EventCarousel from '$lib/EventCarousel.svelte';
 </script>
 
 <body>
-	<NavBar dynamic={false}/>
+	<NavBar showCAlways={true} />
 
     <div class="content">
         <h1>Events</h1>

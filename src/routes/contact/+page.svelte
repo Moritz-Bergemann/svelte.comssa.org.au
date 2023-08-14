@@ -1,9 +1,9 @@
 <script lang="ts">
-	import NavBar from '$lib/NavBar.svelte';
+	import NavBar from '$lib/NavBar/NavBar.svelte';
 </script>
 
 <body>
-	<NavBar dynamic={false}/>
+	<NavBar showCAlways={true} />
 
     <div class="content">
         <div class="divider"/>

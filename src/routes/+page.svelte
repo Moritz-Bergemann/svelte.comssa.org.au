@@ -1,22 +1,12 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import NavBar from '$lib/NavBar.svelte';
+	import NavBar from '$lib/NavBar/NavBar.svelte';
 	import ComssaTyper from '$lib/ComssaTyper.svelte';
 
 	onMount(() => {
 		const SHOW_SCROLL_NAVBAR_HEIGHT = 20;
 
 		let showNavbar: boolean = true;
-
-		// window.onscroll = () => {
-		//     if (window.scrollY > SHOW_SCROLL_NAVBAR_HEIGHT) {
-		//         console.log("there!");
-		//         showNavbar = true;
-		//     } else {
-		//         console.log("not there!");
-		//         showNavbar = false;
-		//     }
-		// }
 	});
 </script>
 

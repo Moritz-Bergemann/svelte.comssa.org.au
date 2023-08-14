@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavBar from '$lib/NavBar.svelte';
+	import NavBar from '$lib/NavBar/NavBar.svelte';
 
     let logosCdn = {
         atlassian:"https://res.cloudinary.com/dec6mijn3/image/upload/v1685100584/ComSSA-Website/Sponsors/atlassian-svg.svg",
@@ -25,7 +25,7 @@
 </script>
 
 <body>
-	<NavBar dynamic={false}/>
+	<NavBar showCAlways={true} />
 
     <div class="content">
         <div class="divider"/>
