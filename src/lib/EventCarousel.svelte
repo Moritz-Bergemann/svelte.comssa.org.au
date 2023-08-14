@@ -4,6 +4,8 @@
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 	import Autoplay from 'embla-carousel-autoplay';
 
+	export let imageLinks: string[];
+
 	// Scale tweening. Source: https://www.embla-carousel.com/examples/predefined/#scale
 	const TWEEN_FACTOR_SCALE = 0.5;
 
@@ -111,8 +113,8 @@
 		};
 	};
 
-	let options = { loop: true };
-	let plugins = [Autoplay({ delay: 4000 })];
+	let options = { loop: true, inViewThreshold: -0.5 };
+	let plugins = [Autoplay({ delay: 4000, stopOnInteraction: false })];
 
 	const onInit = (event: CustomEvent<EmblaCarouselType>) => {
 		let emblaApi = event.detail;
@@ -143,33 +145,13 @@
 <div class="embla">
 	<div class="embla__viewport" use:emblaCarouselSvelte={{ options, plugins }} on:emblaInit={onInit}>
 		<div class="embla__container">
-			<div class="embla__slide">
-				<div class="embla__scale">
-					<img
-						class="embla__slide__img"
-						src="/assets/events/board-games-night-2023/3.JPG"
-						alt="Your alt text"
-					/>
+			{#each imageLinks as imageLink}
+				<div class="embla__slide">
+					<div class="embla__scale">
+						<img class="embla__slide__img" src={imageLink} alt="Your alt text" />
+					</div>
 				</div>
-			</div>
-			<div class="embla__slide">
-				<div class="embla__scale">
-					<img
-						class="embla__slide__img"
-						src="/assets/events/board-games-night-2023/4.JPG"
-						alt="Your alt text"
-					/>
-				</div>
-			</div>
-			<div class="embla__slide">
-				<div class="embla__scale">
-					<img
-						class="embla__slide__img"
-						src="/assets/events/board-games-night-2023/6.JPG"
-						alt="Your alt text"
-					/>
-				</div>
-			</div>
+			{/each}
 		</div>
 	</div>
 </div>
@@ -205,6 +187,6 @@
 	.embla__scale {
 		height: 100%;
 		position: relative;
-		/* backface-visibility: hidden; */
+		backface-visibility: hidden;
 	}
 </style>
