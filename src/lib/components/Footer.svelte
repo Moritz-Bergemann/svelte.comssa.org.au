@@ -28,7 +28,7 @@
             <h1 class="center-text">Get in touch!</h1>
 			<br>
 			
-			<Socials color="#FFFFFF" containerWidth="80%"/>
+			<Socials color="#FFFFFF"/>
 
 			<br>
 			<a href="mailto://club@comssa.org.au">

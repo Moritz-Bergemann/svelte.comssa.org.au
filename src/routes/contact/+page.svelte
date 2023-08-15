@@ -1,6 +1,8 @@
 <script lang="ts">
 	import NavBar from '$lib/components/NavBar/NavBar.svelte';
 	import Socials from '$lib/components/Socials.svelte';
+
+	// import DataModel from '$lib/model/DataModel.ts'; TODO
 </script>
 
 <body>
@@ -10,7 +12,17 @@
 		<h1>Contact Us</h1>
 
 		<div>
-			<p>TODO text that goes here - where should people contact ComSSA?</p>
+			<p>
+				The best place to contact the ComSSA committee and keep up with future events is on <b
+					><a href="https://discord.gg/SuwfFfjYJB" class="comssa-blue-text">Discord</a></b
+				>. Chat with us in the general channels or via direct message! All ComSSA committee members
+				are indicated with a special role. Our events also regularly get posted and hosted on the
+				<b
+					><a href="https://www.facebook.com/ComSSACurtin/" class="comssa-blue-text"
+						>ComSSA Facebook Page</a
+					></b
+				>.
+			</p>
 
 			<p>
 				For additional or business enquiries, please contact us at <b
@@ -18,10 +30,12 @@
 				>.
 			</p>
 		</div>
-        
-        <div class="divider"/>
-        <h2>Social Media</h2>
-        <Socials color=""/>
+
+		<div class="divider" />
+		<h2>Official Accounts</h2>
+		<div>
+			<Socials color="original" logoSize="4rem" />
+		</div>
 	</div>
 </body>
 
