@@ -154,7 +154,7 @@ onMount(() => {});
 			{#each imageLinks as imageLink}
 				<div class="embla__slide">
 					<div class="embla__scale">
-						<img class="embla__slide__img" src={imageLink} alt="Your alt text" />
+						<img class="embla__slide__img" src={imageLink} alt="Event image" />
 					</div>
 				</div>
 			{/each}

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import NavBar from '$lib/NavBar/NavBar.svelte';
-	import ComssaTyper from '$lib/ComssaTyper.svelte';
+	import NavBar from '$lib/components/NavBar/NavBar.svelte';
+	import ComssaTyper from '$lib/components/ComssaTyper.svelte';
 
 	onMount(() => {
 		const SHOW_SCROLL_NAVBAR_HEIGHT = 20;
@@ -13,7 +13,7 @@
 <body>
 	<!-- TODO add background little images -->
 	<!-- TODO make everything sort of float, it would be cool if it interacts with with the cursor as well -->
-	<NavBar dynamic={true}/>
+	<NavBar showCAlways={false} />
 
 	<div id="landing" class="landing">
 		<div style="margin: auto;">
@@ -41,15 +41,15 @@
 		<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
 			<div class="intro-item">
 				<p>Social Events</p>
-				<img src="/assets/temp-photo.png"/>
+				<img src="/assets/temp-photo.png" />
 			</div>
 			<div class="intro-item">
 				<p>Industry Networking</p>
-				<img src="/assets/temp-photo.png"/>
+				<img src="/assets/temp-photo.png" />
 			</div>
 			<div class="intro-item">
 				<p>Study Support</p>
-				<img src="/assets/temp-photo.png"/>
+				<img src="/assets/temp-photo.png" />
 			</div>
 		</div>
 
@@ -131,7 +131,7 @@
 	}
 
 	.landing-button:hover {
-		background-color: var(--comssa-orange); /* Green */
+		background-color: var(--comssa-orange);
 		box-shadow: 0px 8px 15px rgba(245, 131, 31, 0.5);
 		transition: all 0.3s ease 0s;
 	}
@@ -148,7 +148,7 @@
 	.intro-item p {
 		font-size: 1.5rem;
 		text-align: center;
-		font-family: "WaveHaus SemiBold";
+		font-family: 'WaveHaus SemiBold';
 	}
 
 	.paragraph-float-right {

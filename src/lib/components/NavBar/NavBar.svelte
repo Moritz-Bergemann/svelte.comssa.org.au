@@ -2,9 +2,9 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import NavBarContent from './NavBarContent.svelte';
-	import Page from '../../routes/contact/+page.svelte';
-	export let followScroll = true;
-	export let showCAlways = false;
+	import Page from '../../../routes/contact/+page.svelte';
+	export let followScroll: boolean = true;
+	export let showCAlways: boolean = false;
 	let scrollY: number;
 </script>
 

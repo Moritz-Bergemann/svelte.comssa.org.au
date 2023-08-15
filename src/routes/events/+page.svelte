@@ -1,7 +1,6 @@
 <script lang="ts">
-	import NavBar from '$lib/NavBar/NavBar.svelte';
-
-	import EventCarousel from '$lib/EventCarousel.svelte';
+	import NavBar from '$lib/components/NavBar/NavBar.svelte';
+	import EventCarousel from '$lib/components/EventCarousel.svelte';
 
 	let bgnImageLinks1 = [
 		'/assets/events/board-games-night-2023/2.JPG',
