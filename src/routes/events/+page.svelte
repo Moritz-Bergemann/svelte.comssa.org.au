@@ -1,28 +1,17 @@
 <script lang="ts">
 	import NavBar from '$lib/components/NavBar/NavBar.svelte';
 	import EventCarousel from '$lib/components/EventCarousel.svelte';
+	import eventsData from "./events.json";
 
-	let bgnImageLinks1 = [
-		'/assets/events/board-games-night-2023/2.JPG',
-		'/assets/events/board-games-night-2023/3.JPG',
-		'/assets/events/board-games-night-2023/4.JPG',
-		'/assets/events/board-games-night-2023/6.JPG',
-		'/assets/events/board-games-night-2023/7.JPG',
-		'/assets/events/board-games-night-2023/8.JPG',
-		'/assets/events/board-games-night-2023/9.JPG',
-		'/assets/events/board-games-night-2023/10.JPG',
-	];
+	type EventsData = {
+		events: Array<{
+			folder: string,
+			name: string,
+			imageUrls: Array<string>,
+		}>;
+	}
 
-	let bgnImageLinks2 = [
-		'/assets/events/board-games-night-2023/11.JPG',
-		'/assets/events/board-games-night-2023/12.JPG',
-		'/assets/events/board-games-night-2023/13.JPG',
-		'/assets/events/board-games-night-2023/14.JPG',
-		'/assets/events/board-games-night-2023/15.JPG',
-		'/assets/events/board-games-night-2023/16.JPG',
-		'/assets/events/board-games-night-2023/17.JPG',
-		'/assets/events/board-games-night-2023/18.JPG',
-	];
+	let events: EventsData = eventsData;
 </script>
 
 <body>
@@ -31,11 +20,10 @@
 	<div class="content">
 		<h1>Events</h1>
 
-		<h2>Board Games Night 2023</h2>
-		<EventCarousel bind:imageLinks={bgnImageLinks1} />
-
-		<h2>Board Games Night 2024</h2>
-		<EventCarousel bind:imageLinks={bgnImageLinks2} />
+		{#each events.events as event}
+			<h2>{event.name}</h2>
+			<EventCarousel bind:imageLinks={event.imageUrls} />
+		{/each}
 	</div>
 </body>
 
