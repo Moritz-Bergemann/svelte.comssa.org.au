@@ -1,26 +1,6 @@
 <script lang="ts">
 	import NavBar from '$lib/components/NavBar/NavBar.svelte';
 	import ComssaTyper from '$lib/components/ComssaTyper.svelte';
-	import { element } from 'svelte/internal';
-
-	function scrollTo(id: string, applyScrollbarOffset = true) {
-		let yOffset = 0;
-		if (applyScrollbarOffset) {
-			const scrollbar = document.getElementsByClassName('navbar')![0];
-
-			yOffset =
-				-1 *
-					Math.abs(
-						scrollbar.getBoundingClientRect().top - scrollbar.getBoundingClientRect().bottom
-					) -
-				10;
-		}
-
-		const element = document.getElementById(id);
-		const y = element!.getBoundingClientRect().top + yOffset;
-
-		window.scrollTo({ top: y, behavior: 'smooth' });
-	}
 </script>
 
 <body>
@@ -41,17 +21,15 @@
 			<div
 				style="margin-top: 2rem; display: flex; justify-content: center; flex-direction: row; gap: 4rem;"
 			>
-				<a class="landing-button" href="LINK-TODO">Join Now!</a>
-				<button class="landing-button" on:click={() => scrollTo('current-events')}
-					>Latest News</button
-				>
+				<a class="landing-button" href="#join-comssa">Join ComSSA!</a>
+				<a class="landing-button" href="#current-events">Latest News</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="content">
+	<div class="content-wide">
 		<!-- Welcomes -->
-		<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+		<div style="display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap; flex-direction: row;">
 			<div class="intro-item">
 				<p>Social Events</p>
 				<img
@@ -74,61 +52,87 @@
 
 		<div class="divider" />
 
-		<h2>Current Events</h2>
-		<div id="current-events" class="poster-container">
-			<img
-				src="https://res.cloudinary.com/dec6mijn3/image/upload/v1692112101/ComSSA-Website/posters/hackathon-23_byfxzm.png"
-			/>
+		<div>
+			<h2>Current Events</h2>
+			<div id="current-events" class="anchor" />
+			<div class="poster-container">
+				<img
+					src="https://res.cloudinary.com/dec6mijn3/image/upload/v1692112101/ComSSA-Website/posters/hackathon-23_byfxzm.png"
+				/>
+			</div>
 		</div>
 
 		<div class="divider" />
 
 		<h2>Who are we?</h2>
-		<div class="paragraph-float-right">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tristique lacus. Interdum
-				et malesuada fames ac ante ipsum primis in faucibus. Quisque in blandit purus. Nulla odio
-				ante, volutpat id aliquam quis, pharetra eget urna. Proin sollicitudin ipsum sapien, aliquam
-				porttitor dui maximus eget. Vivamus bibendum tristique libero sit amet porttitor.
-				Pellentesque eu facilisis nibh. Maecenas ac sapien a justo rhoncus pretium vitae vel est.
-				Suspendisse ornare sodales est, quis mattis orci dignissim vitae. Orci varius natoque
-				penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris sit amet arcu eu
-				enim hendrerit bibendum id nec magna. Donec in augue vel erat dapibus suscipit. Ut eu
-				bibendum lacus. Pellentesque ultrices ipsum id nunc venenatis, ac condimentum erat
-				tincidunt. Nam sagittis blandit ipsum vel molestie. Morbi ultricies non nunc et molestie.
-				Morbi volutpat pulvinar odio ut tincidunt. Fusce pharetra vehicula rhoncus. Nullam nibh
-				dolor, efficitur sit amet leo eu, volutpat faucibus velit.
-			</p>
+		<div class="horizontal-items">
+			<div style="min-width: 25rem;">
+				<p>
+					ComSSA is the club that supports computing, computer engineering, and networking students
+					at Curtin University. We also support non-computing students by providing events and
+					services that give like minded individuals (anyone interested in programming or computing)
+					a space to find support, socialise and communicate.
+				</p>
+				<p>
+					You do not need to be a computing student. Membership is open to everyone, even if you're
+					not a student!
+				</p>
+				<p>
+					Committee members can be found throughout the level 2 labs in building 314 or in the
+					ComSSA common room (314.345). <strong
+						><a href="/committee">Not sure who we are?</a></strong
+					>
+				</p>
+				<p>
+					ComSSA provides a wide range of events and services for its members, such as academic
+					assistance, social events and industry orientated events.
+				</p>
+				<p>
+					ComSSA is affiliated with Curtin Student Guild which means if you are a Curtin student and
+					have a voucher from the guild diary then membership is free.
+				</p>
+			</div>
+			<div style="min-width: 20rem; max-width: 40rem; margin: auto;">
+				<img src="/assets/temp-photo.png" style="width: 100%;" />
+			</div>
 		</div>
 
-		<img src="/assets/temp-photo.png" style="float: left; width: 40%; margin: auto;" />
+		<div class="divider" />
+
+		<div class="full-section">
+			<div class="anchor" id="join-comssa" />
+			<h2 id="join-comssa">Join ComSSA!</h2>
+
+			<img src="/assets/temp-photo.png" style="max-width: 30rem; margin: auto; display: block;" />
+
+			<br />
+
+			<p class="centered">
+				If you'd like to join ComSSA online, you can do so easily through TidyHQ. Just click the
+				link below:
+			</p>
+
+			<br />
+			<a
+				class="landing-button"
+				style="margin: auto; max-width: 8rem; display: block;"
+				href="https://comssa.tidyhq.com/public/membership_levels/9b41b2d0d56e">Join Online</a
+			>
+			<br />
+
+			<p class="centered">
+				You can also join in-person - just talk to any of our committee members, either at one of
+				our events or in the ComSSA Common Room! This is also the way to join if you would like to
+				use a Curtin Student Guild voucher. If you have any more questions, please 
+				<a href="/socials"><strong>contact us!</strong></a>
+			</p>
+		</div>
 	</div>
 </body>
 
 <style>
-	.logo-container {
-		position: absolute;
-		top: 100px;
-		left: 100px;
-		width: 400px;
-	}
-
 	.divider {
 		height: 4rem;
-	}
-
-	.logo {
-		letter-spacing: 0.15rem;
-		line-height: 1;
-		font-family: 'Wavehaus Bold';
-		font-size: 75px;
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	.tagline {
-		font-family: 'Wavehaus Semibold';
-		font-size: 20px;
 	}
 
 	.landing {
@@ -179,15 +183,17 @@
 		font-family: 'WaveHaus SemiBold';
 	}
 
-	.paragraph-float-right {
-		text-align: right;
-		width: 50%;
-		float: right;
-		margin: 0 !important;
+	.horizontal-items {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 5rem;
 	}
 
-	.paragraph-float-right p {
-		text-align: justify;
+	.horizontal-items div {
+		flex: 1;
 	}
 
 	.content {

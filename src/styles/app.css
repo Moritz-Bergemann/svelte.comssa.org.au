@@ -1,3 +1,10 @@
+:root {
+	--comssa-blue: #4459a5;
+	--comssa-secondary-blue: #7ea3cc;
+	--comssa-orange: #f5831f;
+	--comssa-black: #404040;
+}
+
 @layer base {
 	@font-face {
 		font-family: 'Wavehaus Bold';
@@ -5,10 +12,88 @@
 		font-weight: normal;
 		font-display: swap;
 	}
+
 	@font-face {
 		font-family: 'Wavehaus SemiBold';
 		src: url('/fonts/wavehaus/Wavehaus-95SemiBold.otf') format("opentype");
 		font-weight: normal;
 		font-display: swap;
 	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+strong {
+	font-weight: bold;
+	color: var(--comssa-blue);
+}
+
+p {
+	font-family: "Roboto Mono", monospace
+}
+
+h1 {
+	font-family: 'Wavehaus Bold';
+	color: var(--comssa-blue);
+	text-align: center;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Wavehaus Bold';
+	color: var(--comssa-blue);
+	text-align: center;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: 'Wavehaus Bold';
+	color: var(--comssa-blue);
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.anchor {
+	display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.comssa-blue-text {
+	color: var(--comssa-blue);
+}
+
+.comssa-black-text {
+	color: var(--comssa-black);
+}
+
+.comssa-orange-text {
+	color: var(--comssa-orange);
+}
+
+.content {
+	max-width: 60vw;
+	margin: auto;
+}
+
+.content-wide {
+	max-width: 80vw;
+	margin: auto;
+}
+
+.centered {
+	text-align: center;
 }

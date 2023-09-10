@@ -118,8 +118,4 @@
 		width: 100%;
 	}
 
-	.content-wide {
-		max-width: 70em;
-		margin: auto;
-	}
 </style>
