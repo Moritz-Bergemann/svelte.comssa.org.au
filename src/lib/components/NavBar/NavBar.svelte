@@ -35,6 +35,7 @@
 
 	.navbar-static {
 		height: 75px;
+		max-height: 150px;
 	}
 
 	.navbar-follow {

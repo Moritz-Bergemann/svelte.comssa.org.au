@@ -6,37 +6,38 @@
 	<a href="contact" class="navbar-item underlined">Socials</a>
 	<a href="events" class="navbar-item underlined">Events</a>
 	<a href="committee" class="navbar-item underlined">Committee</a>
+	{#if showC}
 	<div class="navbar-item">
-		{#if showC}
 			<a href="/"><img class="comssa-c" alt="ComSSA" src="/assets/comssa-c-black.png" /></a>
-		{:else}
-			<div class="comssa-c"/>
-		{/if}
-	</div>
+		</div>
+	{/if}
 	<a
 		href="https://drive.google.com/drive/folders/1HC9XAeFVHCOfjcJeRfK9hbmzNI1Ux2JX"
 		class="navbar-item underlined">Meeting Minutes</a
 	>
 	<a href="sponsors" class="navbar-item underlined">Sponsors</a>
-	<a href="join" class="navbar-item underlined button">Join Now!</a>
+	<a href="/#join-comssa" class="navbar-item underlined button">Join Now!</a>
 </div>
 
 <style>
 	.navbar-items {
 		padding-left: 10%;
 		padding-right: 10%;
-		height: 100%;
 		display: flex;
 		text-decoration: none;
+		gap: 1rem;
 		flex-direction: row;
+		justify-content: space-evenly;
 		align-items: center;
-	}
+		flex-wrap: wrap;
+		}
 
 	.navbar-item {
 		max-width: 10rem;
+		min-width: 6rem;
 		font-family: 'WaveHaus SemiBold';
 		display: block;
-		flex: auto;
+		flex: 1;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
