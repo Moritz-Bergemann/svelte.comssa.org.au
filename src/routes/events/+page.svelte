@@ -17,14 +17,13 @@
 <body>
 	<NavBar showCAlways={true} />
 
-	<div class="content">
 		<h1>Events</h1>
 
 		{#each events.events as event}
 			<h2>{event.name}</h2>
 			<EventCarousel bind:imageLinks={event.imageUrls} />
+			<div class="divider"/>
 		{/each}
-	</div>
 </body>
 
 <style>

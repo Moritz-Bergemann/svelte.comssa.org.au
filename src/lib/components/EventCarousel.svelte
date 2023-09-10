@@ -152,8 +152,8 @@ onMount(() => {});
 	<div class="embla__viewport" use:emblaCarouselSvelte={{ options, plugins }} on:emblaInit={onInit}>
 		<div class="embla__container">
 			{#each imageLinks as imageLink}
-				<div class="embla__slide">
-					<div class="embla__scale">
+				<div class="embla__slide" >
+					<div class="embla__scale" >
 						<img class="embla__slide__img" src={imageLink} alt="Event image" />
 					</div>
 				</div>
@@ -165,7 +165,7 @@ onMount(() => {});
 <style>
 	.embla {
 		--slide-spacing: 10rem;
-		--slide-size: 75%;
+		--slide-size: 50%;
 		--slide-height: 24rem;
 		padding: 1.6rem;
 	}
@@ -191,8 +191,9 @@ onMount(() => {});
 		object-fit: cover;
 	}
 	.embla__scale {
-		height: 100%;
 		position: relative;
 		backface-visibility: hidden;
+		max-width: 60rem; 
+		margin: auto;
 	}
 </style>
