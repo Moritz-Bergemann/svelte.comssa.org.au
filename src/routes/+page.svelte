@@ -6,7 +6,7 @@
 	onMount(() => {
 		const SHOW_SCROLL_NAVBAR_HEIGHT = 20;
 
-		let showNavbar: boolean = true;
+		let showNavbar = true;
 	});
 </script>
 
@@ -17,7 +17,7 @@
 
 	<div id="landing" class="landing">
 		<div style="margin: auto;">
-			<img src="/assets/comssa-c.png" style="margin: auto; display: block;" width="250rem" />
+			<img src="/assets/comssa-c.svg" style="margin: auto; display: block;" width="250rem" />
 			<ComssaTyper />
 			<div
 				style="margin-top: 1rem; font-family: WaveHaus SemiBold; text-align: center; font-size: 1.5rem;"
