@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavBar from '$lib/NavBar/NavBar.svelte';
+	import NavBar from '$lib/components/NavBar/NavBar.svelte';
 
     let logosCdn = {
         atlassian:"https://res.cloudinary.com/dec6mijn3/image/upload/v1685100584/ComSSA-Website/Sponsors/atlassian-svg.svg",

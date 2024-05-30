@@ -1,0 +1,224 @@
+{
+    "events": [
+        {
+            "folder": "ComSSA-Website/events/hackathon-2023",
+            "name": "Hackathon 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107445/ComSSA-Website/events/hackathon-2023/1_wwpuip.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107445/ComSSA-Website/events/hackathon-2023/10_ok0bhk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107445/ComSSA-Website/events/hackathon-2023/11_jslw2e.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107446/ComSSA-Website/events/hackathon-2023/12_dly5qe.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107447/ComSSA-Website/events/hackathon-2023/13_hzjra2.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107446/ComSSA-Website/events/hackathon-2023/14_aacrlh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107449/ComSSA-Website/events/hackathon-2023/15_ocropa.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107448/ComSSA-Website/events/hackathon-2023/16_q9o5mh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107449/ComSSA-Website/events/hackathon-2023/17_wtosai.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107448/ComSSA-Website/events/hackathon-2023/18_zvo0j9.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/amazing-tech-race-2023",
+            "name": "Amazing Tech Race 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107359/ComSSA-Website/events/amazing-tech-race-2023/1_hptspb.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107359/ComSSA-Website/events/amazing-tech-race-2023/10_outnpk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107359/ComSSA-Website/events/amazing-tech-race-2023/12_xobgwg.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107360/ComSSA-Website/events/amazing-tech-race-2023/13_wometx.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107359/ComSSA-Website/events/amazing-tech-race-2023/14_hlfhfu.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107360/ComSSA-Website/events/amazing-tech-race-2023/15_fvs7zf.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107359/ComSSA-Website/events/amazing-tech-race-2023/16_keswl7.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107361/ComSSA-Website/events/amazing-tech-race-2023/17_gjrmyt.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107362/ComSSA-Website/events/amazing-tech-race-2023/18_fqjouh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107362/ComSSA-Website/events/amazing-tech-race-2023/19_ud1cg7.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/tfti-2023",
+            "name": "Tfti 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107467/ComSSA-Website/events/tfti-2023/1_pu0wgw.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107469/ComSSA-Website/events/tfti-2023/10_d2kdwp.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107469/ComSSA-Website/events/tfti-2023/11_jey8lk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107469/ComSSA-Website/events/tfti-2023/14_mcekdl.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107470/ComSSA-Website/events/tfti-2023/15_gnzosg.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107469/ComSSA-Website/events/tfti-2023/16_uytvkf.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107469/ComSSA-Website/events/tfti-2023/17_ruzcvz.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107472/ComSSA-Website/events/tfti-2023/18_jkr3iq.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107472/ComSSA-Website/events/tfti-2023/2_gvc8uo.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107471/ComSSA-Website/events/tfti-2023/3_gzwnz5.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/lan-2023",
+            "name": "Lan 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107459/ComSSA-Website/events/lan-2023/1_dipmld.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107459/ComSSA-Website/events/lan-2023/10_ldae42.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107461/ComSSA-Website/events/lan-2023/11_gc3nir.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107459/ComSSA-Website/events/lan-2023/12_yx654y.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107461/ComSSA-Website/events/lan-2023/13_npchgv.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107461/ComSSA-Website/events/lan-2023/15_miwn8t.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107462/ComSSA-Website/events/lan-2023/16_vsyhoy.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107462/ComSSA-Website/events/lan-2023/2_zvmmi5.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107462/ComSSA-Website/events/lan-2023/3_k2qxaz.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107462/ComSSA-Website/events/lan-2023/4_cexxlp.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/board-games-night-2023",
+            "name": "Board Games Night 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107378/ComSSA-Website/events/board-games-night-2023/10_tebcfq.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107383/ComSSA-Website/events/board-games-night-2023/11_zlqmph.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107378/ComSSA-Website/events/board-games-night-2023/12_shgemb.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107378/ComSSA-Website/events/board-games-night-2023/13_pcls9o.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107378/ComSSA-Website/events/board-games-night-2023/14_reiytw.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107377/ComSSA-Website/events/board-games-night-2023/15_wagdc6.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107375/ComSSA-Website/events/board-games-night-2023/16_xujuyu.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107388/ComSSA-Website/events/board-games-night-2023/17_l8i0t5.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107389/ComSSA-Website/events/board-games-night-2023/18_fx72vl.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107389/ComSSA-Website/events/board-games-night-2023/2_lbttws.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2023",
+            "name": "Grill The Department 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107411/ComSSA-Website/events/grill-the-department-2023/1_eomsg1.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107416/ComSSA-Website/events/grill-the-department-2023/11_v21oz1.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107415/ComSSA-Website/events/grill-the-department-2023/12_zvcj23.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107413/ComSSA-Website/events/grill-the-department-2023/13_sy7rqr.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107417/ComSSA-Website/events/grill-the-department-2023/14_fv3bla.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107418/ComSSA-Website/events/grill-the-department-2023/15_lqmsey.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107419/ComSSA-Website/events/grill-the-department-2023/16_fr5tdn.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107420/ComSSA-Website/events/grill-the-department-2023/17_hqzttg.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107423/ComSSA-Website/events/grill-the-department-2023/19_iddnun.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107431/ComSSA-Website/events/grill-the-department-2023/2_h58pya.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2023",
+            "name": "Guild Oday 2023",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107436/ComSSA-Website/events/guild-oday-2023/IMG_0031_uzuqev.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107436/ComSSA-Website/events/guild-oday-2023/IMG_0033_tisave.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107438/ComSSA-Website/events/guild-oday-2023/IMG_0036_xrqxlp.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107438/ComSSA-Website/events/guild-oday-2023/IMG_0037_rh6fer.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107438/ComSSA-Website/events/guild-oday-2023/IMG_0038_ugnupc.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107439/ComSSA-Website/events/guild-oday-2023/IMG_0046_tcqvq3.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107439/ComSSA-Website/events/guild-oday-2023/IMG_0047_wi4yyj.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107439/ComSSA-Website/events/guild-oday-2023/IMG_0055_sbg48z.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107438/ComSSA-Website/events/guild-oday-2023/IMG_0056_s8ko6y.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107440/ComSSA-Website/events/guild-oday-2023/IMG_0063_fviydt.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/board-games-night-2022",
+            "name": "Board Games Night 2022",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107366/ComSSA-Website/events/board-games-night-2022/image001_sl1t6y.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107366/ComSSA-Website/events/board-games-night-2022/image003_csmo8i.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107366/ComSSA-Website/events/board-games-night-2022/image004_xablkc.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107367/ComSSA-Website/events/board-games-night-2022/image005_nem6qj.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107367/ComSSA-Website/events/board-games-night-2022/image006_ybu8l9.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107367/ComSSA-Website/events/board-games-night-2022/image007_wstbfq.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107367/ComSSA-Website/events/board-games-night-2022/image008_c8i39o.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107367/ComSSA-Website/events/board-games-night-2022/image009_nmh1sb.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107369/ComSSA-Website/events/board-games-night-2022/image010_hlv9ke.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107368/ComSSA-Website/events/board-games-night-2022/image011_dzwquz.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2022",
+            "name": "Grill The Department 2022",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107402/ComSSA-Website/events/grill-the-department-2022/GTDimage001_to6t3r.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107402/ComSSA-Website/events/grill-the-department-2022/GTDimage002_tl3iqu.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage003_jezupr.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage004_bzehdc.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage005_hbqnpv.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage006_abio7f.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage007_wqpuxf.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107403/ComSSA-Website/events/grill-the-department-2022/GTDimage008_u3frda.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107404/ComSSA-Website/events/grill-the-department-2022/GTDimage009_moz88o.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107404/ComSSA-Website/events/grill-the-department-2022/GTDimage012_hqolxl.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2022",
+            "name": "Guild Oday 2022",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107436/ComSSA-Website/events/guild-oday-2022/20220223_140514_r42qo2.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107435/ComSSA-Website/events/guild-oday-2022/20220223_140652_hmpsfb.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107433/ComSSA-Website/events/guild-oday-2022/Odayimage001_lk4jeh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107433/ComSSA-Website/events/guild-oday-2022/Odayimage002_kzk5jh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107435/ComSSA-Website/events/guild-oday-2022/Odayimage003_ulkaap.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107435/ComSSA-Website/events/guild-oday-2022/Odayimage004_eycpu0.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/hackathon-2021",
+            "name": "Hackathon 2021",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107441/ComSSA-Website/events/hackathon-2021/1-P_20211017_201036_w5tu79.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107441/ComSSA-Website/events/hackathon-2021/2-P_20211017_200904_g0yft6.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107442/ComSSA-Website/events/hackathon-2021/3-P_20211017_181942_njjjkk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107442/ComSSA-Website/events/hackathon-2021/4-P_20211017_190636_bscrtd.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/tfti-2021",
+            "name": "Tfti 2021",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107464/ComSSA-Website/events/tfti-2021/IMG_9351_cb8uiy.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107464/ComSSA-Website/events/tfti-2021/IMG_9353_eybvqy.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107464/ComSSA-Website/events/tfti-2021/IMG_9355_noehjf.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107464/ComSSA-Website/events/tfti-2021/IMG_9365_wjj7ej.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107465/ComSSA-Website/events/tfti-2021/IMG_9373_kti9ee.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107465/ComSSA-Website/events/tfti-2021/IMG_9380_nlk9og.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107465/ComSSA-Website/events/tfti-2021/IMG_9385_h9p0t9.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107466/ComSSA-Website/events/tfti-2021/IMG_E9017_zepsa6.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/lan-2021",
+            "name": "Lan 2021",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107455/ComSSA-Website/events/lan-2021/PXL_20210903_112938120.NIGHT_r3ve14.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107455/ComSSA-Website/events/lan-2021/PXL_20210903_123748989_roignn.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107455/ComSSA-Website/events/lan-2021/PXL_20210903_124750339_espjg8.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107456/ComSSA-Website/events/lan-2021/PXL_20210903_124758199.NIGHT_jvxsuy.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107456/ComSSA-Website/events/lan-2021/PXL_20210903_124816586.NIGHT_w60ghh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107457/ComSSA-Website/events/lan-2021/PXL_20210903_124832127.NIGHT_cq7psa.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107456/ComSSA-Website/events/lan-2021/PXL_20210903_124912916.NIGHT_vzba7j.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107456/ComSSA-Website/events/lan-2021/PXL_20210903_124938280.NIGHT_yp3tit.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107458/ComSSA-Website/events/lan-2021/PXL_20210903_125051216.NIGHT_x8ia02.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2021",
+            "name": "Grill The Department 2021",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107402/ComSSA-Website/events/grill-the-department-2021/DSC_1394_mjzxbw.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107402/ComSSA-Website/events/grill-the-department-2021/DSC_1467_jtearz.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107402/ComSSA-Website/events/grill-the-department-2021/DSC_1481_ytkrlk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107391/ComSSA-Website/events/grill-the-department-2021/DSC1371_ybmdoh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107391/ComSSA-Website/events/grill-the-department-2021/DSC1373_eqip34.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107391/ComSSA-Website/events/grill-the-department-2021/DSC1374_m6jtju.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107394/ComSSA-Website/events/grill-the-department-2021/DSC1379_gpffls.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107394/ComSSA-Website/events/grill-the-department-2021/DSC1381_jw4lck.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107394/ComSSA-Website/events/grill-the-department-2021/DSC1387_cvc4zp.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107394/ComSSA-Website/events/grill-the-department-2021/DSC1390_ojgvvc.webp"
+            ]
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2021",
+            "name": "Guild Oday 2021",
+            "imageUrls": [
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107430/ComSSA-Website/events/guild-oday-2021/signups_w60pbh.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107432/ComSSA-Website/events/guild-oday-2021/signups2_npozlk.webp",
+                "https://res.cloudinary.com/dec6mijn3/image/upload/v1692107432/ComSSA-Website/events/guild-oday-2021/stall_iy6ul8.webp"
+            ]
+        }
+    ]
+}

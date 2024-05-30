@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "folder": "ComSSA-Website/events/hackathon-2023",
+            "name": "Hackathon 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/amazing-tech-race-2023",
+            "name": "Amazing Tech Race 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/tfti-2023",
+            "name": "Tfti 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/lan-2023",
+            "name": "Lan 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/board-games-night-2023",
+            "name": "Board Games Night 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2023",
+            "name": "Grill The Department 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2023",
+            "name": "Guild Oday 2023"
+        },
+        {
+            "folder": "ComSSA-Website/events/board-games-night-2022",
+            "name": "Board Games Night 2022"
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2022",
+            "name": "Grill The Department 2022"
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2022",
+            "name": "Guild Oday 2022"
+        },
+        {
+            "folder": "ComSSA-Website/events/hackathon-2021",
+            "name": "Hackathon 2021"
+        },
+        {
+            "folder": "ComSSA-Website/events/tfti-2021",
+            "name": "Tfti 2021"
+        },
+        {
+            "folder": "ComSSA-Website/events/lan-2021",
+            "name": "Lan 2021"
+        },
+        {
+            "folder": "ComSSA-Website/events/grill-the-department-2021",
+            "name": "Grill The Department 2021"
+        },
+        {
+            "folder": "ComSSA-Website/events/guild-oday-2021",
+            "name": "Guild Oday 2021"
+        }
+    ]
+}
