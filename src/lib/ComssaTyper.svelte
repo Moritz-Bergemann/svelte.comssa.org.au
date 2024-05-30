@@ -1,36 +1,39 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
-	import TypeIt from 'typeit';
-	import type { TypeItInstance } from 'typeit/dist/types';
+import { onMount, onDestroy } from "svelte";
+import TypeIt from "typeit";
 
-	let typerElement: HTMLElement;
+let typerElement: HTMLElement;
 
-	onMount(() => {
-		typerElement.innerHTML = "";
+onMount(() => {
+	typerElement.innerHTML = "";
 
-		let startingText = `<span class="comssa-blue-text" style="position: relative; top: 1rem;">~</span><span class="comssa-blue-text">/Com</span>
+	let startingText = `<span class="comssa-blue-text" style="position: relative; top: 1rem;">~</span><span class="comssa-blue-text">/Com</span>
 			<span class="comssa-blue-text">S</span>
 			<span class="comssa-blue-text">S</span>
 			<span class="comssa-blue-text">A</span>`;
 
-		new (TypeIt as any)('#comssa-typer', { speed: 50, startDelay: 0, cursorChar: '_'})
-			.type(startingText, {instant: true})
-			.pause(1500)
-			.move(-5, {instant: true})
-			.pause(100)
-			.move(-5, {instant: true})
-			.pause(100)
-			.move(-5, {instant: true})
-			.pause(100)
-			.type("puter ")
-			.move(5, {instant: true})
-			.type("cience ")
-			.move(5, {instant: true})
-			.type("tudents ")
-			.move(5, {instant: true})
-			.type("ssociation")
-			.go();
-	});
+	new TypeIt("#comssa-typer", {
+		speed: 50,
+		startDelay: 0,
+		cursorChar: "_",
+	})
+		.type(startingText, { instant: true })
+		.pause(1500)
+		.move(-5, { instant: true })
+		.pause(100)
+		.move(-5, { instant: true })
+		.pause(100)
+		.move(-5, { instant: true })
+		.pause(100)
+		.type("puter ")
+		.move(5, { instant: true })
+		.type("cience ")
+		.move(5, { instant: true })
+		.type("tudents ")
+		.move(5, { instant: true })
+		.type("ssociation")
+		.go();
+});
 </script>
 
 <div class="comssa-typer" id="comssa-typer" bind:this={typerElement}>

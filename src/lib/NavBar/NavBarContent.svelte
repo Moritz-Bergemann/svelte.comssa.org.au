@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let showC: boolean = false;
+export let showC = false;
 </script>
 
 <div class="navbar-items">
@@ -8,7 +8,7 @@
 	<a href="committee" class="navbar-item underlined"><span class="underline">Committee</span></a>
 	<div class="navbar-item">
 		{#if showC}
-			<a href="/"><img alt="ComSSA" src="/assets/comssa-c.png" /></a>
+			<a href="/"><img alt="ComSSA" src="/assets/comssa-c.svg" /></a>
 		{/if}
 	</div>
 	<a

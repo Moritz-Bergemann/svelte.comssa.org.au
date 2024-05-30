@@ -3,8 +3,8 @@
 	import { fly } from 'svelte/transition';
 	import NavBarContent from './NavBarContent.svelte';
 	import Page from '../../routes/contact/+page.svelte';
-	export let followScroll: boolean = true;
-	export let showCAlways: boolean = false;
+	export let followScroll = true;
+	export let showCAlways = false;
 	let scrollY: number;
 </script>
 
