@@ -32,3 +32,6 @@ You can now run a development server!
 ```bash
 npm run dev
 ```
+
+## Development Notes
+- The ComSSA font, WaveHaus, must be purchased for use here: https://www.behance.net/asset/227605/Wavehaus-Font-Family
