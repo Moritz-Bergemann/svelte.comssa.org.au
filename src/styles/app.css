@@ -8,17 +8,26 @@
 @layer base {
 	@font-face {
 		font-family: 'Wavehaus Bold';
-		src: url('/fonts/wavehaus/Wavehaus-128Bold.ttf');
+		src: url('https://cdn.comssa.org.au/wavehaus/Wavehaus-128Bold.otf') format("opentype");
+		font-weight: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Wavehaus Book';
+		src: url('https://cdn.comssa.org.au/wavehaus/Wavehaus-66Book.otf') format("opentype");
 		font-weight: normal;
 		font-display: swap;
 	}
 
 	@font-face {
 		font-family: 'Wavehaus SemiBold';
-		src: url('/fonts/wavehaus/Wavehaus-95SemiBold.otf') format("opentype");
+		src: url('https://cdn.comssa.org.au/wavehaus/Wavehaus-95SemiBold.otf') format("opentype");
 		font-weight: normal;
 		font-display: swap;
 	}
+
+	
 }
 
 html {
@@ -41,7 +50,10 @@ strong {
 }
 
 p {
-	font-family: "Roboto Mono", monospace
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
@@ -55,7 +67,11 @@ h2 {
 	font-family: 'Wavehaus Bold';
 	color: var(--comssa-blue);
 	text-align: center;
-	font-size: 2rem;
+	font-size: 36px;
+	line-height: 40px;
+	text-decoration: none;
+	text-indent: 0px;
+	letter-spacing: 0px;
 }
 
 h3 {

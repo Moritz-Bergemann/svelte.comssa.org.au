@@ -66,7 +66,7 @@
 
 		<h2>Who are we?</h2>
 		<div class="horizontal-items">
-			<div style="min-width: 25rem;">
+			<div class="montserrat-normal" style="min-width: 25rem;">
 				<p>
 					ComSSA is the club that supports computing, computer engineering, and networking students
 					at Curtin University. We also support non-computing students by providing events and
@@ -124,7 +124,7 @@
 				You can also join in-person - just talk to any of our committee members, either at one of
 				our events or in the ComSSA Common Room! This is also the way to join if you would like to
 				use a Curtin Student Guild voucher. If you have any more questions, please 
-				<a href="/socials"><strong>contact us!</strong></a>
+				<a href="/"><strong>contact us!</strong></a>
 			</p>
 		</div>
 	</div>
