@@ -66,7 +66,7 @@
 
 		<h2>Who are we?</h2>
 		<div class="horizontal-items">
-			<div class="montserrat-normal" style="min-width: 25rem;">
+			<div style="min-width: 25rem;">
 				<p>
 					ComSSA is the club that supports computing, computer engineering, and networking students
 					at Curtin University. We also support non-computing students by providing events and
