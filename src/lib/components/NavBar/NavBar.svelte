@@ -14,8 +14,8 @@
 
 {#if followScroll && scrollY > 300}
 	<div
-		in:fly={{ y: -75, opacity: 1, duration: 500 }}
-		out:fly={{ y: -75, opacity: 1, duration: 250 }}
+		in:fly|global={{ y: -75, opacity: 1, duration: 500 }}
+		out:fly|global={{ y: -75, opacity: 1, duration: 250 }}
 		class="navbar navbar-follow"
 	>
 		<NavBarContent showC={true}/>
