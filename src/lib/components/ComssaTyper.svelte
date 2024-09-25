@@ -56,10 +56,10 @@ onMount(() => {
 		font-family: WaveHaus Bold;
 		text-align: center;
 		font-size: 4rem;
-		color: var(--comssa-black);
+		--ti-cursor-color: var(--text-color);
 	}
 
-	div :global(.comssa-blue-text) {
+	div .comssa-blue-text {
 		color: var(--comssa-blue);
 	}
 </style>

@@ -1,5 +1,14 @@
 <script lang="ts">
+	import { theme } from '$lib/theme';
+	import { get } from 'svelte/store';
+
 	export let showC: boolean = false;
+
+	function toggleTheme() {
+		const newTheme = get(theme) === 'light' ? 'dark' : 'light';
+
+		theme.set(newTheme);
+	}
 </script>
 
 <div class="navbar-items">
@@ -7,7 +16,7 @@
 	<a href="events" class="navbar-item underlined">Events</a>
 	<a href="committee" class="navbar-item underlined">Committee</a>
 	{#if showC}
-	<div class="navbar-item">
+		<div class="navbar-item">
 			<a href="/"><img class="comssa-c" alt="ComSSA" src="/assets/comssa-c-black.png" /></a>
 		</div>
 	{/if}
@@ -16,7 +25,7 @@
 		class="navbar-item underlined">Meeting Minutes</a
 	>
 	<a href="sponsors" class="navbar-item underlined">Sponsors</a>
-	<a href="/#join-comssa" class="navbar-item underlined button">Join Now!</a>
+	<button on:click={toggleTheme} class="navbar-item underlined button">toggle theme!</button>
 </div>
 
 <style>
@@ -30,7 +39,7 @@
 		justify-content: space-evenly;
 		align-items: center;
 		flex-wrap: wrap;
-		}
+	}
 
 	.navbar-item {
 		max-width: 10rem;
@@ -41,14 +50,13 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		color: black;
 		text-decoration: none;
 	}
 
 	.comssa-c {
 		width: 3rem;
 	}
-	
+
 	.navbar-items a img {
 		filter: invert(36%) sepia(12%) saturate(2552%) hue-rotate(190deg) brightness(95%) contrast(96%);
 	}
@@ -74,7 +82,6 @@
 		text-align: center;
 		text-decoration: none;
 		cursor: pointer;
-
 
 		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 		border-radius: 45px;

@@ -3,6 +3,19 @@
 	--comssa-secondary-blue: #7ea3cc;
 	--comssa-orange: #f5831f;
 	--comssa-black: #404040;
+
+	--white: #ffffff;
+	--black: #000000;
+}
+
+body {
+	--text-color: var(--comssa-black);
+	--background-color: var(--white);
+}
+
+body.dark-theme {
+	--text-color: #ffffff;
+	--background-color: var(--black);
 }
 
 @layer base {
@@ -26,8 +39,6 @@
 		font-weight: normal;
 		font-display: swap;
 	}
-
-	
 }
 
 html {
@@ -37,6 +48,8 @@ html {
 body {
 	margin: 0px;
 	overflow-x: hidden;
+	background-color: var(--background-color);
+	color: var(--text-color)
 }
 
 a {
@@ -49,7 +62,11 @@ strong {
 	color: var(--comssa-blue);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	font-family: 'Wavehaus Bold', 'Montserrat', sans-serif;
 	color: var(--comssa-blue);
 	text-align: center;
@@ -84,28 +101,30 @@ h5 {
 	line-height: 20px;
 }
 
-p, .lead {
-  font-family: 'Wavehaus Book', 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 66;
-  font-size: 18px;
-  line-height: 25px;
+p,
+.lead {
+	font-family: 'Wavehaus Book', 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 66;
+	font-size: 18px;
+	line-height: 25px;
 	font-weight: 400;
 	text-decoration: none;
 	text-indent: 0px;
 	letter-spacing: 0px;
+	color: var(--text-color)
 }
 
 .lead {
-  font-size: 24px;
-  line-height: 30px;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .anchor {
 	display: block;
-    position: relative;
-    top: -80px;
-    visibility: hidden;
+	position: relative;
+	top: -80px;
+	visibility: hidden;
 }
 
 .comssa-blue-text {
